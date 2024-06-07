@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="r">hello every one</h1>
+    <button onclick="document.getElementById('r').style='color:red'">red</button>
+    <button onclick="document.getElementById('r').style='color:green'">green</button>
+    <button onclick="document.getElementById('r').style='color:blue'">blue</button>
+    <hr>
+    <button onclick="document.getElementById('im').src='bon.jpg'">on</button>
+    <img id="im" src="boff.jpg" alt="">
+    <button onclick="document.getElementById('im').src='boff.jpg'">off</button>
+    <hr>
+    <h1 id="heading">hello</h1>
+    <button onclick="abc()">change</button>
+    <button onclick="xy()">change</button>
+    <button onclick="xyz()">change</button>
+    <script>
+        function abc(){
+       document.getElementById('heading').innerHTML='world'
+        }
+        function xy(){
+            document.getElementById('heading').innerHTML='hi class'
+        }
+        function xyz(){
+            document.getElementById('heading').innerHTML='hello every one'
+        }
+    </script>
+</body>
+</html>
